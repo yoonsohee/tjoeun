@@ -1,0 +1,80 @@
+<style type="text/css">
+    /* 초기설정 */
+    *{margin:0;padding:0;}
+    li{list-style-type:none;}
+    a{text-decoration: none;color:#fff;}
+    p{margin-bottom:20px;}
+    body{
+        background:#6f866c;
+        background-image: url(https://cms-assets.tutsplus.com/uploads/users/254/posts/22332/final_image/SpookyForestFinal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; /* 백그라운드의 사이즈 지정 */
+        background-attachment: fixed;
+    }
+    .center{width:1200px; margin:0 auto;}
+
+    /* 머리글 */
+    header{background: rgba(255, 255, 255, 0.8); position: relative; height: 230px;}
+    header h1{text-align: center; padding:30px 0;}
+    header form{position: absolute; right: 0; top: 0; }
+
+
+    /* 본문 */
+    section{background:rgba(255, 255, 255, 0.5); overflow: hidden;}
+
+    nav{float: left;width:200px;}
+    nav li a{display:block; border-bottom:2px solid #fff; padding:20px;}
+    nav li a:hover{background:rgb(60, 64, 62) ;}
+
+    article{float: right;width:950px;}
+    article .wrap{ padding: 20px 70px 20px 0;}
+    article .wrap h2{text-align: center; color:rgb(63, 68, 69); padding-bottom: 10px; font-size: 30px;}
+    article .wrap p{text-align: center; padding-top: 10px; font-size: 25px;}
+
+    /*사진이미지*/
+    article div img{padding: 5px;border-style: ridge;
+     }
+   /* 로그인 */
+    .main{
+        font-family: "Lato"
+        font-width: 400;
+        width: 200px;
+        margin: 20px;
+        padding: 10px;
+        background: #333;
+        border-radius: 0.6em;
+        border:   1px solid #181818;
+        overflow: hidden;
+        }
+        .main label{
+        width: 50%;
+        float: left;
+        padding-top: 9px;
+        color: #ddd;
+        font-size: 10px;
+        font-weight: 700;
+        }
+        .main input{
+        width: 50%;
+        float: left;
+        padding: 8px 6px;
+        margin-bottom: 9px;
+        font-size: 10px;
+        background: linear-gradient(#1f2124, #27292c);
+        border: 1px solod #000;
+        border-radius: 3px;
+        font-family:"Lato";
+        color: #fff;
+      }
+
+
+
+
+
+    /* 바닥글 */
+    footer{clear:left; background:rgba(51, 51, 51, 0.8);color:#fff;text-align: center;padding:30px 0;}
+    footer a{
+      padding: 0 20px;
+    }
+
+</style>@charset "UTF-8";
